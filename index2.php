@@ -24,7 +24,7 @@
             </header>
             <div id="content">
                 <div class="columns">
-                    <img class="image-principale" src="https://pbs.twimg.com/profile_banners/87980824/1435298655/1500x500" title="image principale" alt="Angers" />
+                    <img class="image-principale" src="kernel/img/angers.jpeg" title="image principale" alt="Angers" />
                     <label class="image">Angers (Juin 2015)</label>
                 </div>
                    
