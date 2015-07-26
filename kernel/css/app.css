@@ -1,0 +1,111 @@
+  /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 juil. 2015, 11:27:40
+    Author     : andy
+*/
+/** html, body */
+html, body{
+    height:100%;
+}
+/** hide **/
+@media only screen and (max-width: 1026px) {
+    .hidden-for-medium {
+        display: none !important;
+    }
+}
+/* Header */
+header.header{
+    position: relative;
+    
+    width: 100%;
+    height: 180px;
+    
+    background-color: #333;
+    color: #FFF;
+}
+header.header h1{ 
+    font-size: 2.75rem;
+    
+    color: #FFF;
+}
+header.header h1 span{
+    font-size:  1.75rem;
+        
+    color: #C0C0C0;
+    font-family: Tahoma;
+    font-style: italic;
+}
+header.header h1 span:before {
+    content:"\A \0009"; /* Saut de ligne + tabulation*/
+    white-space: pre;
+}
+/*Contenu */
+div#content{    
+    padding: 20px 20px;
+    min-height: calc(100% - (180px + 190px));
+    height: auto;
+
+}
+
+div#content img.image-principale {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#content label.image{
+    color: #4D4D4D;
+    text-decoration: underline;
+    text-align: center;
+}
+/* Badges */
+.badge{
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 0 5px;   
+    
+    min-width: 12px;
+    font-size: 12px;
+    
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+/* Footer **/
+footer.footer{
+    position:relative;
+    
+    width: 100%;  
+    
+    clear:both;
+}
+footer.footer #medias{
+
+    height: 160px;
+    
+    text-align: center;
+    background-color: #2B5464;
+    color: #FFF;
+}
+footer.footer #medias a{
+color: #FFF;
+}
+footer.footer #medias h6{
+    color : #FFF;
+}
+footer.footer #copyright{
+    
+    height: 30px;
+    
+    text-align: center;
+    background-color: #333;
+    color: #666;
+}
